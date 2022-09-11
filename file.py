@@ -6,6 +6,8 @@ Created on Sun Sep 11 16:06:08 2022
 @author: majalarsen
 """
 
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
-import my-secrets
+import pandas as pd
+
+df = pd.read_csv('data/song_features.csv')
+
+
